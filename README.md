@@ -1,6 +1,6 @@
-![alt text](ProfileApp1)
+![alt text](ProfileApp1.png)
 
-![alt text](ProfileApp2)
+![alt text](ProfileApp2.png)
 
-![alt text](ProfileApp3)
+![alt text](ProfileApp3.png)
 
