@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Profile App</string>
+    
+    <string-array name="gender_list">
+        <item>Pilih Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

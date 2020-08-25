@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@drawable/scifi"
+        android:orientation="vertical">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrasi"
+            android:textSize="24sp"
+            android:layout_margin="16dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/paprika"
+            android:layout_gravity="center_horizontal"
+            android:typeface="normal"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+    <EditText
+                android:id="@+id/edtName"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:fontFamily="@font/paprika"
+                android:textColorHint="#7C7575"
+                android:textColor="#FFFFFF"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+
+        <Spinner
+                 android:id="@+id/spinnerGender"
+                 android:entries="@array/gender_list"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="16dp"/>
+
+        <EditText
+                android:id="@+id/edtEmail"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:fontFamily="@font/paprika"
+                android:textColorHint="#7C7575"
+                android:textColor="#FFFFFF"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"/>
+
+        <EditText
+                android:id="@+id/edtTelp"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="No Telepon"
+                android:fontFamily="@font/paprika"
+                android:textColorHint="#7C7575"
+                android:textColor="#FFFFFF"
+                android:inputType="number"
+                android:imeOptions="actionNext"/>
+
+        <EditText
+                android:id="@+id/edtAlamat"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat"
+                android:fontFamily="@font/paprika"
+                android:textColorHint="#7C7575"
+                android:textColor="#FFFFFF"
+                android:inputType="text"
+                android:imeOptions="actionDone"/>
+
+    <Button
+            android:id="@+id/btnSave"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:text="Simpan"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:fontFamily="@font/paprika"
+            android:background="@drawable/button"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
